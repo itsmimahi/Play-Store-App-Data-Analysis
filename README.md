@@ -1,3 +1,9 @@
+There are two ways to access files -:
+1. I have created folders directly for notebooks, data and target encoder. Choose what notebook you will requires and choose data and target encoder accordingly from respective folder.
+2. I have also listed out addresses created folders other than these folders (Data, Notebook, Target Encoder) choose according to your need you will get all related supporting or dependent files inside that folder itself too (e.g if you wanted to access global model final notebook you simply go to that folder or file by following this address "\PJM\PJM-GlobalModel\PJM-GlobalModel-Final\PJM_Final_GlobalModel.ipynb").
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
 Address :-
 1. PJM API Global Model        -->   \PJM\PJM-API-GlobalModel\PJM-API\..
 2. PJM Causal Inference        -->   \PJM\PJM-Exxon-Causal-Inference\PJM_Exxon_DiCE_CausInfer.ipynb
@@ -19,14 +25,14 @@ PJM (Main folder)
 
 * **Data**
     * **Exxon Data** (Contains data files for Exxon client in the PJM)
-            - EDP_TimeFeatures (Cotains time related feature)
-            - Exxon_PJM_Export_Jan17_Updated ()
-            - ExxonCompiledData_Feb8 (Combined data)
-            - ExxonResponses (Contains data response of Exxon peoples)
-            - ExxonSummaryWithPMO (Contains all required data for analysis)
+        - EDP_TimeFeatures (Cotains time related feature)
+        - Exxon_PJM_Export_Jan17_Updated ()
+        - ExxonCompiledData_Feb8 (Combined data)
+        - ExxonResponses (Contains data response of Exxon peoples)
+        - ExxonSummaryWithPMO (Contains all required data for analysis)
             
     * **Global Data** (Contains data files related to the overall project)
-            - pjm_data_feb28** (Single data file for all global model notebooks)
+        - pjm_data_feb28** (Single data file for all global model notebooks)
             
 * **Notebook** (Contains Jupyter Notebooks for all PJM  code execution)
     * **causal inference** (Contains code for causal inference analysis, likely for the PJM project focused on Exxon data)
